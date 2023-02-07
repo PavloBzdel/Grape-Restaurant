@@ -1,0 +1,16 @@
+@import "/src/scss/variable";
+@import "/src/scss/media";
+@import "/src/scss/fonts";
+
+.section-gallery{
+  padding: 50px 0 100px;
+}
+.item{
+  height: 300px;
+}
+.gallery-title, .gallery-subtitle {
+  text-align: center;
+}
+.gallery-subtitle{
+  padding: 20px 0 40px;
+}

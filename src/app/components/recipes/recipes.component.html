@@ -1,0 +1,27 @@
+<section class="section-recipes">
+  <div class="container">
+    <div class="recipes-title title">CHEF'S RECIPES</div>
+    <div class="recipes-subtitle subtitle">~ Blog & Recipes ~</div>
+    <div class="wrapper-list">
+      <div class="container-card" *ngFor="let item of recipesList">
+        <div class="card">
+          <div class="card-images">
+            <img [src]="item.images" alt="">
+          </div>
+          <div class="card-title">{{item.title}}</div>
+          <div class="card-info">
+            <div class="info">
+              <div><img src="assets/icon/recipes/clock.png" alt=""><p>{{item.infoTime}}</p></div>
+              <div><img src="assets/icon/recipes/food-cover.png" alt=""><p>{{item.infoLevel}}</p></div>
+              <div><img src="assets/icon/recipes/user.png" alt=""><p>{{item.infoPerson}}</p></div>
+            </div>
+          </div>
+          <div class="card-text">{{item.text}}</div>
+          <div class="card-button">
+            <button class="btn" type="button">read more</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

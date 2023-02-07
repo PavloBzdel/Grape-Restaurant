@@ -1,0 +1,103 @@
+@import "/src/scss/variable";
+@import "/src/scss/media";
+@import "/src/scss/fonts";
+
+.section-about-us{
+  padding: 50px 0;
+}
+.slider-wrap {
+  height: 420px;
+}
+
+.about-us-title{
+  text-align: center;
+  padding: 50px;
+  background-color: $light-blue-color;
+}
+.about-us-info-container{
+  padding-top: 120px;
+  display: flex;
+  gap: 100px;
+}
+.content-subtitle{
+  padding: 20px 0;
+}
+.content-images{
+  padding: 25px 0 0;
+}
+.info-left-wrapper{
+  p{
+    font-style: italic;
+    margin-top: 100px;
+    span{
+      color: $pink-color;
+    }
+  }
+}
+.section-awards{
+  background-color: $light-blue-color;
+}
+.item{
+  border-radius: 10px;
+}
+.item-title{
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: bold;
+  text-align: start;
+  color: $pink-color;
+  font-size: 34px;
+  line-height: 1.2;
+  letter-spacing: .2em;
+}
+.item-text{
+  text-align: start;
+  padding: 25px 0;
+}
+.item-info{
+  color: $font-title-color;
+  font-style: italic;
+  font-weight: bold;
+  span{
+    color: $pink-color;
+    font-weight: bold;
+  }
+}
+.awards-title{
+  padding: 100px 0 0;
+  text-align: center;
+}
+.awards-subtitle{
+  padding: 25px 0 50px;
+  text-align: center;
+}
+.container{
+  padding-bottom: 150px;
+}
+
+.team-title{
+  padding: 100px 0 25px;
+}
+.team-title, .team-subtitle{
+  text-align: center;
+}
+.team-container{
+  margin-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+.team-card{
+  position: relative;
+  max-width: 300px;
+  &:nth-child(2n){
+    transform: translateY(70px);
+  }
+}
+.text{
+  font-family: 'Cormorant Garamond', serif;
+  font-style: italic;
+  font-weight: bold;
+  padding: 25px 0;
+}

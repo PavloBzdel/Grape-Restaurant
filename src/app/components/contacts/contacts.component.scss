@@ -1,0 +1,52 @@
+@import "/src/scss/variable";
+@import "/src/scss/media";
+@import "/src/scss/fonts";
+.contacts-title{
+  padding: 50px;
+  text-align: center;
+  background-color: $light-blue-color;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 58px;
+  line-height: 1.1;
+  font-weight: 500;
+  letter-spacing: .2em;
+  color: $dark-font-color;
+}
+.wrapper{
+  padding: 100px 0;
+}
+.contact-left-wrapper{
+  max-width: 700px;
+}
+.contact-title{
+  padding: 50px 0 25px;
+}
+.contact-text{
+  padding: 25px 0 50px;
+}
+.contact-info{
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+.info-card{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.info-ring{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width:70px;
+  height: 70px;
+  border-radius: 50%;
+  background-color: $light-blue;
+  color: $white-color;
+  font-size: 28px;
+  font-weight: bold;
+}
+.info-content-title{
+  font-size: 20px;
+  font-weight: bold;
+}

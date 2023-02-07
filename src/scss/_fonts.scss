@@ -1,0 +1,126 @@
+
+//     font-family: 'Cormorant Garamond', serif;
+//     font-family: 'Mulish', sans-serif;
+// header
+.header-info-item{
+  font-size: 12px;
+  font-weight: bold;
+  letter-spacing: 3px;
+}
+// Home
+.home-title{
+  font-family: 'Cormorant Garamond', serif;
+  h1{
+    font-size: 58px;
+    color: $dark-font-color;
+  }
+  p{
+    font-size: 19px;
+    font-style: italic;
+    color: $pink-color;
+  }
+}
+.content-item{
+  color: $font-color;
+  font-size: 17px;
+  h2{
+    font-family: 'Cormorant Garamond', serif;
+    color: $dark-font-color;
+  }
+}
+img{
+  width: 100%;
+}
+.info-title{
+  font-size: 53px;
+  font-family: 'Cormorant Garamond', serif;
+  color: $light-blue;
+}
+.info-item-title{
+  font-size: 30px;
+  color: $font-title-color
+}
+.info-item-subtitle{
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 23px;
+  line-height: 1.4;
+  font-weight: 500;
+  font-style: normal;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+}
+.info-item-subtitle span{
+  color: $pink-color;
+}
+.info-item-img{
+  width: 55px;
+  height: 55px;
+  img{
+    width: 100%;
+  }
+}
+
+  .title{
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 34px;
+    color: $dark-font-color;
+    letter-spacing: .2em;
+  }
+  .subtitle{
+    font-size: 19px;
+    color: $pink-color;
+    font-style: italic;
+  }
+  .card-subtitle{
+    color: $pink-color;
+    font-weight: bold;
+    letter-spacing: .2em;
+  }
+  .card-title{
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 23px;
+    font-weight: bold;
+    line-height: 1.4;
+    color: $dark-font-color;
+    letter-spacing: .1em;
+  }
+
+.card-title-dishes-plate{
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 23px;
+  line-height: 1.4;
+  color: $dark-font-color;
+  font-weight: bold;
+  letter-spacing: .1em;
+}
+.card-text-dishes-plate{
+  font-size: 17px;
+  letter-spacing: 0;
+}
+.item-title{
+  font-size: 18px;
+  text-align: center;
+  color: $font-title-color;
+}
+.item-text{
+  font-size: 15px;
+  text-align: center;
+}
+.item-date{
+  text-align: center;
+  color: $pink-color;
+  font-weight: bold;
+  font-style: italic;
+}
+.recipes-subtitle, .reviews-subtitle{
+  font-family: 'Cormorant Garamond', serif;
+}
+
+.about-us-title{
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 58px;
+  font-weight: 500;
+  color: $dark-font-color;
+  text-transform: uppercase;
+  letter-spacing: .2em;
+}

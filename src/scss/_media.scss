@@ -1,0 +1,26 @@
+@media (min-width: 1448px){
+  .wrapper-dishes {
+    &:nth-child(2n) {
+      position: relative;
+      transform: translateY(-150px);
+    }
+  }
+}
+@media (max-width: $tablet){
+  .menu-card{
+    flex-direction: column;
+    &:nth-child(2){
+      flex-direction: column !important;
+    }
+  }
+}
+@media (max-width: $mobile){
+  .section-header{
+    .wrapper-header{
+      display: none;
+    }
+    .burger-menu{
+      display: block;
+    }
+  }
+}

@@ -1,0 +1,67 @@
+<section class="section-header">
+  <header class="header">
+    <div class="container">
+      <div class="wrapper-header">
+        <div class="header-info">
+          <div class="header-info-item">
+            <p class="item-phone">+1 (234) 567 89 00</p>
+            <p class="item-text">BASED IN BROOKLYN</p>
+          </div>
+          <div class="header-info-item">
+            <div class="item-logo"><img  [routerLink]="['/home']" src="assets/images/header/logo.svg" alt="logo cake"></div>
+          </div>
+          <div class="header-info-item">
+            <p class="item-text text">CONTACT CHEF</p>
+            <div class="item-social">
+              <a href="#"><img src="assets/icon/header/facebook.png" alt="facebook"></a>
+              <a href="#"><img src="assets/icon/header/instagram.png" alt="instagram"></a>
+              <a href="#"><img src="assets/icon/header/twitter.png" alt="twitter"></a>
+              <a href="#"><img src="assets/icon/header/youtube.png" alt="youtube"></a>
+            </div>
+          </div>
+        </div>
+        <nav class="nav">
+          <ul class="list">
+            <li class="link" [routerLink]="['/about-us']">About Chef</li>
+            <li class="link" [routerLink]="['/home']">Home</li>
+            <li class="link" [routerLink]="['/menu']">Menu</li>
+            <li class="link" [routerLink]="['/contacts']">Contacts</li>
+          </ul>
+        </nav>
+      </div>
+      <div class="burger-menu">
+        <div class="header-info-item">
+          <div class="item-logo"><img  src="assets/images/header/logo.svg" alt="logo cake"></div>
+        </div>
+        <div class="menu-wrap">
+          <input type="checkbox" class="toggler">
+          <div class="hamburger">
+            <div></div>
+          </div>
+          <div class="menu">
+            <div>
+              <div>
+                <div class="item-logo"><img src="assets/images/header/logo.svg" alt="logo cake"></div>
+                <ul>
+                  <li class="link"><a [routerLink]="['/about-us']">About Chef</a></li>
+                  <li class="link"><a [routerLink]="['/home']">Home</a></li>
+                  <li class="link"><a [routerLink]="['/menu']">Menu</a> </li>
+                  <li class="link"><a [routerLink]="['/contacts']">Contacts</a> </li>
+                </ul>
+              </div>
+              <div class="header-info-item">
+                <p class="item-text text">CONTACT CHEF</p>
+                <div class="item-social">
+                  <a href="#"><img src="assets/icon/header/facebook.png" alt="facebook"></a>
+                  <a href="#"><img src="assets/icon/header/instagram.png" alt="instagram"></a>
+                  <a href="#"><img src="assets/icon/header/twitter.png" alt="twitter"></a>
+                  <a href="#"><img src="assets/icon/header/youtube.png" alt="youtube"></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+</section>

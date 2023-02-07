@@ -1,0 +1,36 @@
+@import "/src/scss/variable";
+@import "/src/scss/media";
+@import "/src/scss/fonts";
+.section-experience{
+  padding-bottom: 100px;
+}
+
+  .container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+  }
+  .ex-left, .ex-right{
+    max-width: 600px;
+  }
+.ex-right-subtitle{
+  padding: 15px 0;
+}
+.details{
+  padding: 20px 0 50px;
+}
+.right-details{
+  border-bottom: 1px solid $font-title-color;
+  padding: 15px 0;
+
+}
+.right-summary{
+  padding: 10px 0;
+  color: $dark-font-color;
+}
+.ex-left{
+  img{
+    max-width: 600px;
+  }
+}

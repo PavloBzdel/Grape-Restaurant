@@ -1,0 +1,75 @@
+@import "/src/scss/variable";
+@import "/src/scss/media";
+@import "/src/scss/fonts";
+.section-menu{
+  background-color: $background-color-menu;
+}
+.menu-title{
+  padding: 100px 0 25px;
+}
+.menu-subtitle,.menu-title{
+  text-align: center;
+}
+.menu-card-container{
+  padding: 100px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+.decoration{
+  margin: 0 10px;
+  width: 100%;
+  height: 1px;
+  min-width: 10px;
+  margin: 7px 5px;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1 1;
+  -ms-flex: 1 1;
+  flex: 1 1;
+  background: #071b54;
+  opacity: .2;
+}
+.menu-card{
+  display: flex;
+  gap: 100px;
+  &:nth-child(2){
+    flex-direction: row-reverse;
+  }
+}
+.menu-card-info{
+  max-width: 550px;
+}
+.item{
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+}
+.item-title{
+  font-size: 23px;
+  font-family: 'Cormorant Garamond', serif;
+  line-height: 1.4;
+  font-weight: 500;
+  letter-spacing: .1em;
+  color: $dark-font-color;
+  display: flex;
+  span{
+    font-family: 'Mulish', sans-serif;
+    font-size: 22px;
+    color: $pink-color;
+    font-weight: bold;
+  }
+  div{
+    align-self: flex-end;
+  }
+}
+.item-text{
+  text-align: start;
+}
+.menu-info-text{
+  padding: 20px 0 50px;
+}
+.menu-info-content{
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}

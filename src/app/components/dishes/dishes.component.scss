@@ -1,0 +1,82 @@
+@import "/src/scss/variable";
+@import "/src/scss/media";
+@import "/src/scss/fonts";
+
+
+.section-dishes {
+  .subtitle {
+    margin: 12px;
+  }
+
+  .text {
+    max-width: 510px;
+    margin-bottom: 15px;
+  }
+
+  .container-dishes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+  }
+
+
+
+  .card {
+    justify-self: center;
+    align-self: center;
+  }
+
+  .card-subtitle {
+    padding: 15px 0;
+  }
+
+  .card-images {
+    max-width: 650px;
+
+    img {
+      width: 100%;
+    }
+  }
+
+  .wrapper {
+    padding: 50px 0;
+  }
+
+  .container-dishes-plate {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+    text-align: center;
+  }
+
+  .card-dishes-plate {
+    max-width: 360px;
+  }
+
+  .card-images-dishes-plate {
+    img {
+      width: 100%;
+    }
+  }
+
+  .card-border-dishes-plate {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 0;
+    .border {
+      height: 3px;
+      width: 12%;
+      background-color: $pink-color;
+      opacity: 0.3;
+      border-radius: 10px;
+    }
+  }
+  .container-dishes-plate{
+    padding: 60px 0 65px;
+  }
+}

@@ -1,0 +1,32 @@
+<section class="section-dishes">
+  <div class="container">
+    <div class="wrapper">
+      <div class="dishes-title">
+        <h1 class="title">POPULAR DISHES</h1>
+        <p class="subtitle">~ Cuisine ~</p>
+        <p class="text">I like to mix different styles and cuisines from around the world to get new and unexpected
+          flavor
+          combinations. I also cook according to traditional recipes that everyone loves.</p>
+      </div>
+      <div class="container-dishes">
+        <div class="wrapper-dishes" *ngFor="let item of dishes">
+          <div class="card">
+            <div class="card-images"><img [src]="item.images" alt="{{item.images}}"></div>
+            <div class="card-subtitle">{{item.subtitle}}</div>
+            <div class="card-title">{{item.title}}</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container-dishes-plate">
+      <div class="wrapper-dishes-plate" *ngFor="let item of dishesPlate">
+        <div class="card-dishes-plate">
+          <div class="card-images-dishes-plate"><img [src]="item.images" alt="{{item.images}}"></div>
+          <div class="card-title-dishes-plate">{{item.title}}</div>
+          <div class="card-border-dishes-plate"><div class="border"></div></div>
+          <div class="card-text-dishes-plate">{{item.text}}</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
