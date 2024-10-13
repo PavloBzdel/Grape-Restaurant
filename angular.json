@@ -69,10 +69,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "3-pages-grape:build:production"
+              "buildTarget": "3-pages-grape:build:production"
             },
             "development": {
-              "browserTarget": "3-pages-grape:build:development"
+              "buildTarget": "3-pages-grape:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -80,7 +80,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "3-pages-grape:build"
+            "buildTarget": "3-pages-grape:build"
           }
         },
         "test": {
